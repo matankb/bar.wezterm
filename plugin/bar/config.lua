@@ -114,6 +114,7 @@ M.options = {
       enabled = true,
       icon = wez.nerdfonts.oct_file_directory,
       color = 7,
+      git_root = true
     },
     spotify = {
       enabled = false,

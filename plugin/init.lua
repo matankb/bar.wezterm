@@ -201,7 +201,7 @@ wez.on("update-status", function(window, pane)
     {
       name = "cwd",
       func = function()
-        return paths.get_cwd(pane, true)
+        return paths.get_cwd(pane, false)
       end,
     },
   }
